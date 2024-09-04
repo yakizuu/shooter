@@ -37,14 +37,14 @@ score_pen.hideturtle()
 
 #Create the player turtle
 player = turtle.Turtle()
-player.color("blue")
+player.color("red")
 player.shape("triangle")
 player.penup()
 player.speed(0)
 player.setposition(0, -250)
 player.setheading(90)
 
-playerspeed = 15
+playerspeed = 20
 
 #Choose a number of enemies
 number_of_enemies = 5
@@ -57,7 +57,7 @@ for i in range(number_of_enemies):
 	enemies.append(turtle.Turtle())
 
 for enemy in enemies:
-	enemy.color("red")
+	enemy.color("green")
 	enemy.shape("circle")
 	enemy.penup()
 	enemy.speed(0)
@@ -70,7 +70,7 @@ enemyspeed = 2
 
 #Create the player's bullet
 bullet = turtle.Turtle()
-bullet.color("yellow")
+bullet.color("grey")
 bullet.shape("triangle")
 bullet.penup()
 bullet.speed(0)
@@ -78,7 +78,7 @@ bullet.setheading(90)
 bullet.shapesize(0.5, 0.5)
 bullet.hideturtle()
 
-bulletspeed = 20
+bulletspeed = 50
 
 #Define bullet state
 #ready - ready to fire
