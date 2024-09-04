@@ -4,4 +4,4 @@ katakatanya kak gem
 - use arrow keys to move player
 - use space bar to shoot
 # What skills is needed?
-- tapping so fast
+- tapping so fastt
